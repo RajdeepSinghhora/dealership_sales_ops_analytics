@@ -1,0 +1,68 @@
+name: Daily CRM update
+
+on:
+  schedule:
+    - cron: "30 20 * * *"        # 20:30 UTC = 02:00 IST, every day
+  workflow_dispatch:              # adds a "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write                 # needed to push to the data branch
+
+concurrency:
+  group: daily-crm-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: Asia/Kolkata            # "yesterday" means yesterday in India
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install packages
+        run: pip install pandas numpy
+
+      - name: Load the current data (or create it on the very first run)
+        run: |
+          if git ls-remote --exit-code --heads origin data > /dev/null; then
+            git fetch --depth=1 origin data:refs/remotes/origin/data
+            git checkout origin/data -- data
+            echo "Loaded existing data from the data branch"
+          else
+            echo "No data branch yet - generating 3 years of history"
+            python generate_history.py --out data
+          fi
+
+      - name: Move the CRM forward to yesterday
+        run: python daily_update.py --data data
+
+      - name: Validate before publishing (a failure here stops the run)
+        run: python validate_data.py --data data --expect-fresh
+
+      - name: Publish to the data branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          AS_OF=$(python -c "import json; print(json.load(open('data/_generation_summary.json'))['data_as_of'])")
+          git checkout --orphan publish
+          git read-tree --empty          # start the data commit from an empty index
+          git add -f data
+          git commit -q -m "CRM data as of $AS_OF"
+          git push -f origin publish:data
+
+      - name: Keep the validation report if something failed
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: data/_validation_report.json
+          if-no-files-found: ignore
