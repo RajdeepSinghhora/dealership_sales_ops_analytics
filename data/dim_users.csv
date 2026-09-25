@@ -1,0 +1,218 @@
+UserID,FullName,Role,Channel,OutletID,ManagerUserID,Email,JoinDate,ExitDate,IsActive,MonthlyUnitTarget
+USR-001,Shreya Poojary,GM - Sales,Head Office,HQ,,shreya.poojary1@anvayamotors.example,2022-07-10,,True,
+USR-002,Ramesh Singh,Sales Ops / MIS Analyst,Head Office,HQ,USR-001,ramesh.singh2@anvayamotors.example,2023-02-25,2024-01-04,False,
+USR-003,Vijay Desai,Sales Ops / MIS Analyst,Head Office,HQ,USR-001,vijay.desai3@anvayamotors.example,2024-02-14,2026-01-08,False,
+USR-004,Yogesh Hiremath,Sales Ops / MIS Analyst,Head Office,HQ,USR-001,yogesh.hiremath4@anvayamotors.example,2026-01-28,,True,
+USR-005,Manjunath Acharya,Sales Ops / MIS Analyst,Head Office,HQ,USR-001,manjunath.acharya5@anvayamotors.example,2023-05-31,,True,
+USR-006,Pooja Jain,Outlet Sales Manager,Retail,OUT01,USR-001,pooja.jain6@anvayamotors.example,2022-04-07,2024-03-21,False,
+USR-007,Deepa Chandra,Outlet Sales Manager,Retail,OUT01,USR-001,deepa.chandra7@anvayamotors.example,2024-04-11,,True,
+USR-008,Sunil Angadi,Sales Team Lead,Retail,OUT01,USR-006,sunil.angadi8@anvayamotors.example,2022-04-28,,True,
+USR-009,Pallavi Raju,Sales Consultant,Retail,OUT01,USR-008,pallavi.raju9@anvayamotors.example,2022-05-04,2023-12-27,False,11
+USR-010,Meghana D'Souza,Sales Consultant,Retail,OUT01,USR-008,meghana.dsouza10@anvayamotors.example,2024-01-13,2025-05-06,False,13
+USR-011,Vani Khan,Sales Consultant,Retail,OUT01,USR-008,vani.khan11@anvayamotors.example,2025-05-12,,True,13
+USR-012,Pavan Desai,Sales Consultant,Retail,OUT01,USR-008,pavan.desai12@anvayamotors.example,2023-06-21,2025-04-24,False,13
+USR-013,Priya Iyer,Sales Consultant,Retail,OUT01,USR-008,priya.iyer13@anvayamotors.example,2025-04-25,2026-01-28,False,9
+USR-014,Pradeep Shenoy,Sales Consultant,Retail,OUT01,USR-008,pradeep.shenoy14@anvayamotors.example,2026-03-07,2026-07-29,False,10
+USR-015,Harsha Kini,Sales Consultant,Retail,OUT01,USR-008,harsha.kini15@anvayamotors.example,2026-08-10,,True,8
+USR-016,Arjun Angadi,Sales Consultant,Retail,OUT01,USR-008,arjun.angadi16@anvayamotors.example,2023-05-15,2024-06-27,False,11
+USR-017,Ashok Naik,Sales Consultant,Retail,OUT01,USR-008,ashok.naik17@anvayamotors.example,2024-07-29,2026-05-13,False,9
+USR-018,Anil Kamath,Sales Consultant,Retail,OUT01,USR-008,anil.kamath18@anvayamotors.example,2026-06-10,2026-08-22,False,10
+USR-019,Mahesh Sharma,Sales Consultant,Retail,OUT01,USR-008,mahesh.sharma19@anvayamotors.example,2026-08-27,,True,11
+USR-020,Swathi Fernandes,Sales Consultant,Retail,OUT01,USR-008,swathi.fernandes20@anvayamotors.example,2022-08-05,2025-03-29,False,12
+USR-021,Arun Nair,Sales Consultant,Retail,OUT01,USR-008,arun.nair21@anvayamotors.example,2025-04-30,2025-10-24,False,8
+USR-022,Suresh Reddy,Sales Consultant,Retail,OUT01,USR-008,suresh.reddy22@anvayamotors.example,2025-12-04,,True,8
+USR-023,Vijay Verma,Sales Consultant,Retail,OUT01,USR-008,vijay.verma23@anvayamotors.example,2022-06-07,2023-10-05,False,11
+USR-024,Swathi Fernandes,Sales Consultant,Retail,OUT01,USR-008,swathi.fernandes24@anvayamotors.example,2023-11-08,2024-07-26,False,13
+USR-025,Lakshmi Chandra,Sales Consultant,Retail,OUT01,USR-008,lakshmi.chandra25@anvayamotors.example,2024-08-23,,True,12
+USR-026,Abhishek Hegde,Sales Consultant,Retail,OUT01,USR-008,abhishek.hegde26@anvayamotors.example,2023-05-04,2024-10-14,False,8
+USR-027,Sowmya Joshi,Sales Consultant,Retail,OUT01,USR-008,sowmya.joshi27@anvayamotors.example,2024-11-09,2025-07-03,False,14
+USR-028,Mahesh Naik,Sales Consultant,Retail,OUT01,USR-008,mahesh.naik28@anvayamotors.example,2025-07-19,,True,12
+USR-029,Joseph Desai,Sales Consultant,Retail,OUT01,USR-008,joseph.desai29@anvayamotors.example,2020-03-30,2024-02-10,False,11
+USR-030,Deepak Menon,Sales Consultant,Retail,OUT01,USR-008,deepak.menon30@anvayamotors.example,2024-03-07,2024-04-13,False,14
+USR-031,Chaitra Kulkarni,Sales Consultant,Retail,OUT01,USR-008,chaitra.kulkarni31@anvayamotors.example,2024-04-28,2025-02-11,False,9
+USR-032,Farhan Rao,Sales Consultant,Retail,OUT01,USR-008,farhan.rao32@anvayamotors.example,2025-03-20,2026-06-20,False,8
+USR-033,Sameer Pai,Sales Consultant,Retail,OUT01,USR-008,sameer.pai33@anvayamotors.example,2026-07-15,,True,8
+USR-034,Karthik Rao,Sales Consultant,Retail,OUT01,USR-008,karthik.rao34@anvayamotors.example,2020-12-31,2024-06-07,False,9
+USR-035,Vinay Iyer,Sales Consultant,Retail,OUT01,USR-008,vinay.iyer35@anvayamotors.example,2024-06-11,2025-03-07,False,9
+USR-036,Harish Gowda,Sales Consultant,Retail,OUT01,USR-008,harish.gowda36@anvayamotors.example,2025-04-01,,True,8
+USR-037,Yogesh Hegde,Sales Consultant,Retail,OUT01,USR-008,yogesh.hegde37@anvayamotors.example,2023-08-17,2023-12-17,False,8
+USR-038,Swathi Pinto,Sales Consultant,Retail,OUT01,USR-008,swathi.pinto38@anvayamotors.example,2024-01-26,2025-01-29,False,13
+USR-039,Chetan Agarwal,Sales Consultant,Retail,OUT01,USR-008,chetan.agarwal39@anvayamotors.example,2025-02-13,2026-06-06,False,10
+USR-040,Arun Poojary,Sales Consultant,Retail,OUT01,USR-008,arun.poojary40@anvayamotors.example,2026-06-11,,True,10
+USR-041,Mithun Hegde,Outlet Sales Manager,Retail,OUT02,USR-001,mithun.hegde41@anvayamotors.example,2023-03-19,2024-03-22,False,
+USR-042,Kavya Shetty,Outlet Sales Manager,Retail,OUT02,USR-001,kavya.shetty42@anvayamotors.example,2024-04-26,2026-05-02,False,
+USR-043,Vinod Joshi,Outlet Sales Manager,Retail,OUT02,USR-001,vinod.joshi43@anvayamotors.example,2026-05-08,,True,
+USR-044,Ashwini Swamy,Sales Team Lead,Retail,OUT02,USR-041,ashwini.swamy44@anvayamotors.example,2023-02-19,2026-06-11,False,
+USR-045,Keerthi Shenoy,Sales Team Lead,Retail,OUT02,USR-043,keerthi.shenoy45@anvayamotors.example,2026-07-03,,True,
+USR-046,Keerthi Angadi,Sales Consultant,Retail,OUT02,USR-044,keerthi.angadi46@anvayamotors.example,2023-10-20,2024-12-08,False,11
+USR-047,Keerthi Joshi,Sales Consultant,Retail,OUT02,USR-044,keerthi.joshi47@anvayamotors.example,2024-12-26,2025-11-02,False,14
+USR-048,Tejas Naik,Sales Consultant,Retail,OUT02,USR-044,tejas.naik48@anvayamotors.example,2025-12-02,,True,14
+USR-049,Yogesh Shetty,Sales Consultant,Retail,OUT02,USR-044,yogesh.shetty49@anvayamotors.example,2023-07-28,2024-11-26,False,14
+USR-050,Yogesh Reddy,Sales Consultant,Retail,OUT02,USR-044,yogesh.reddy50@anvayamotors.example,2024-11-30,2026-02-08,False,8
+USR-051,Vikram Rao,Sales Consultant,Retail,OUT02,USR-044,vikram.rao51@anvayamotors.example,2026-03-07,2026-09-16,False,14
+USR-052,Divya Agarwal,Sales Consultant,Retail,OUT02,USR-044,divya.agarwal52@anvayamotors.example,2023-03-15,2023-12-01,False,14
+USR-053,Ritu Nair,Sales Consultant,Retail,OUT02,USR-044,ritu.nair53@anvayamotors.example,2023-12-30,2024-03-05,False,10
+USR-054,Rohan Angadi,Sales Consultant,Retail,OUT02,USR-044,rohan.angadi54@anvayamotors.example,2024-03-17,2024-07-15,False,13
+USR-055,Sachin Verma,Sales Consultant,Retail,OUT02,USR-044,sachin.verma55@anvayamotors.example,2024-07-20,2024-12-05,False,13
+USR-056,Vani Menon,Sales Consultant,Retail,OUT02,USR-044,vani.menon56@anvayamotors.example,2024-12-11,,True,14
+USR-057,Imran Bhat,Sales Consultant,Retail,OUT02,USR-044,imran.bhat57@anvayamotors.example,2023-03-10,2025-06-02,False,9
+USR-058,Neha Angadi,Sales Consultant,Retail,OUT02,USR-044,neha.angadi58@anvayamotors.example,2025-06-16,2026-08-13,False,13
+USR-059,Shilpa Shetty,Sales Consultant,Retail,OUT02,USR-045,shilpa.shetty59@anvayamotors.example,2026-08-15,,True,13
+USR-060,Sneha Hegde,Sales Consultant,Retail,OUT02,USR-044,sneha.hegde60@anvayamotors.example,2022-11-18,2024-03-25,False,8
+USR-061,Vinay D'Souza,Sales Consultant,Retail,OUT02,USR-044,vinay.dsouza61@anvayamotors.example,2024-03-28,2025-10-25,False,13
+USR-062,Harish Khan,Sales Consultant,Retail,OUT02,USR-044,harish.khan62@anvayamotors.example,2025-12-02,,True,10
+USR-063,Lakshmi Menon,Sales Consultant,Retail,OUT02,USR-044,lakshmi.menon63@anvayamotors.example,2022-10-27,2024-03-16,False,13
+USR-064,Srinivas Shenoy,Sales Consultant,Retail,OUT02,USR-044,srinivas.shenoy64@anvayamotors.example,2024-04-07,2025-09-07,False,10
+USR-065,Amit Gupta,Sales Consultant,Retail,OUT02,USR-044,amit.gupta65@anvayamotors.example,2025-09-23,2026-07-31,False,10
+USR-066,Mahesh Nair,Sales Consultant,Retail,OUT02,USR-045,mahesh.nair66@anvayamotors.example,2026-08-31,,True,12
+USR-067,Vidya Joshi,Sales Consultant,Retail,OUT02,USR-044,vidya.joshi67@anvayamotors.example,2021-09-21,2024-03-09,False,14
+USR-068,Manoj Poojary,Sales Consultant,Retail,OUT02,USR-044,manoj.poojary68@anvayamotors.example,2024-04-16,2025-10-28,False,11
+USR-069,Ravi Sharma,Sales Consultant,Retail,OUT02,USR-044,ravi.sharma69@anvayamotors.example,2025-11-25,2026-07-07,False,11
+USR-070,Pallavi Pai,Sales Consultant,Retail,OUT02,USR-045,pallavi.pai70@anvayamotors.example,2026-07-16,,True,14
+USR-071,Pradeep Menon,Sales Consultant,Retail,OUT02,USR-044,pradeep.menon71@anvayamotors.example,2023-06-08,2024-02-27,False,8
+USR-072,Uday Poojary,Sales Consultant,Retail,OUT02,USR-044,uday.poojary72@anvayamotors.example,2024-04-02,2024-11-11,False,8
+USR-073,Sachin Kini,Sales Consultant,Retail,OUT02,USR-044,sachin.kini73@anvayamotors.example,2024-12-08,2025-07-25,False,9
+USR-074,Aditi Bhat,Sales Consultant,Retail,OUT02,USR-044,aditi.bhat74@anvayamotors.example,2025-08-02,,True,11
+USR-075,Rohan Desai,Outlet Sales Manager,Retail,OUT03,USR-001,rohan.desai75@anvayamotors.example,2021-07-21,2024-06-27,False,
+USR-076,Pallavi Singh,Outlet Sales Manager,Retail,OUT03,USR-001,pallavi.singh76@anvayamotors.example,2024-07-19,,True,
+USR-077,Vani D'Souza,Sales Team Lead,Retail,OUT03,USR-075,vani.dsouza77@anvayamotors.example,2023-04-26,2026-01-19,False,
+USR-078,Shashank Sharma,Sales Team Lead,Retail,OUT03,USR-076,shashank.sharma78@anvayamotors.example,2026-02-23,,True,
+USR-079,Ritu Prasad,Sales Consultant,Retail,OUT03,USR-077,ritu.prasad79@anvayamotors.example,2022-05-29,2024-08-15,False,11
+USR-080,Sneha Sharma,Sales Consultant,Retail,OUT03,USR-077,sneha.sharma80@anvayamotors.example,2024-09-01,,True,14
+USR-081,Naveen Prasad,Sales Consultant,Retail,OUT03,USR-077,naveen.prasad81@anvayamotors.example,2022-08-21,2024-08-30,False,14
+USR-082,Pradeep Poojary,Sales Consultant,Retail,OUT03,USR-077,pradeep.poojary82@anvayamotors.example,2024-09-04,,True,8
+USR-083,Chetan Babu,Sales Consultant,Retail,OUT03,USR-077,chetan.babu83@anvayamotors.example,2023-01-21,2024-06-03,False,8
+USR-084,Irfan Kumar,Sales Consultant,Retail,OUT03,USR-077,irfan.kumar84@anvayamotors.example,2024-07-18,2025-09-14,False,13
+USR-085,Nandini Poojary,Sales Consultant,Retail,OUT03,USR-077,nandini.poojary85@anvayamotors.example,2025-09-19,,True,13
+USR-086,Karthik Hegde,Sales Consultant,Retail,OUT03,USR-077,karthik.hegde86@anvayamotors.example,2023-02-02,2024-09-16,False,8
+USR-087,Mahesh Joshi,Sales Consultant,Retail,OUT03,USR-077,mahesh.joshi87@anvayamotors.example,2024-09-19,2024-11-04,False,8
+USR-088,Mahesh Patil,Sales Consultant,Retail,OUT03,USR-077,mahesh.patil88@anvayamotors.example,2024-11-15,2024-12-10,False,12
+USR-089,Karthik Naik,Sales Consultant,Retail,OUT03,USR-077,karthik.naik89@anvayamotors.example,2025-01-21,2026-05-07,False,13
+USR-090,Sachin Patil,Sales Consultant,Retail,OUT03,USR-078,sachin.patil90@anvayamotors.example,2026-06-14,,True,12
+USR-091,Varun Shetty,Sales Consultant,Retail,OUT03,USR-077,varun.shetty91@anvayamotors.example,2022-02-27,2024-02-12,False,11
+USR-092,Rajesh Angadi,Sales Consultant,Retail,OUT03,USR-077,rajesh.angadi92@anvayamotors.example,2024-03-10,2025-09-03,False,8
+USR-093,Pradeep Rao,Sales Consultant,Retail,OUT03,USR-077,pradeep.rao93@anvayamotors.example,2025-10-13,2025-12-12,False,8
+USR-094,Suma Khan,Sales Consultant,Retail,OUT03,USR-077,suma.khan94@anvayamotors.example,2025-12-16,2026-09-02,False,12
+USR-095,Mary Acharya,Sales Consultant,Retail,OUT03,USR-077,mary.acharya95@anvayamotors.example,2023-07-22,2024-05-28,False,11
+USR-096,Manjunath Krishnan,Sales Consultant,Retail,OUT03,USR-077,manjunath.krishnan96@anvayamotors.example,2024-06-03,2025-06-04,False,14
+USR-097,Mary Agarwal,Sales Consultant,Retail,OUT03,USR-077,mary.agarwal97@anvayamotors.example,2025-06-10,2026-08-12,False,11
+USR-098,Girish Reddy,Sales Consultant,Retail,OUT03,USR-078,girish.reddy98@anvayamotors.example,2026-08-25,,True,10
+USR-099,Pallavi Krishnan,Sales Consultant,Retail,OUT03,USR-077,pallavi.krishnan99@anvayamotors.example,2023-01-24,,True,12
+USR-100,Yogesh Swamy,Sales Consultant,Retail,OUT03,USR-077,yogesh.swamy100@anvayamotors.example,2022-11-14,2024-02-24,False,9
+USR-101,Neha Patil,Sales Consultant,Retail,OUT03,USR-077,neha.patil101@anvayamotors.example,2024-03-19,2024-08-09,False,13
+USR-102,Zoya Pinto,Sales Consultant,Retail,OUT03,USR-077,zoya.pinto102@anvayamotors.example,2024-08-25,2025-12-18,False,11
+USR-103,Madhu Chandra,Sales Consultant,Retail,OUT03,USR-076,madhu.chandra103@anvayamotors.example,2026-01-28,2026-09-24,False,14
+USR-104,Nandini Khan,Outlet Sales Manager,Retail,OUT04,USR-001,nandini.khan104@anvayamotors.example,2020-06-06,2024-03-29,False,
+USR-105,Irfan Patil,Outlet Sales Manager,Retail,OUT04,USR-001,irfan.patil105@anvayamotors.example,2024-04-20,,True,
+USR-106,Manoj Fernandes,Sales Team Lead,Retail,OUT04,USR-104,manoj.fernandes106@anvayamotors.example,2023-01-13,2024-08-28,False,
+USR-107,Abhishek Babu,Sales Team Lead,Retail,OUT04,USR-105,abhishek.babu107@anvayamotors.example,2024-09-30,2026-05-03,False,
+USR-108,Vinay Krishnan,Sales Team Lead,Retail,OUT04,USR-105,vinay.krishnan108@anvayamotors.example,2026-06-10,,True,
+USR-109,Bhavya Babu,Sales Consultant,Retail,OUT04,USR-106,bhavya.babu109@anvayamotors.example,2021-08-10,2026-05-18,False,10
+USR-110,Vinod Agarwal,Sales Consultant,Retail,OUT04,USR-108,vinod.agarwal110@anvayamotors.example,2026-06-18,2026-09-12,False,10
+USR-111,Gautam Bhat,Sales Consultant,Retail,OUT04,USR-106,gautam.bhat111@anvayamotors.example,2023-08-18,2025-07-26,False,11
+USR-112,Vinod Patil,Sales Consultant,Retail,OUT04,USR-107,vinod.patil112@anvayamotors.example,2025-08-03,,True,9
+USR-113,Anita Murthy,Sales Consultant,Retail,OUT04,USR-106,anita.murthy113@anvayamotors.example,2021-12-11,2024-10-02,False,10
+USR-114,Rahul Sharma,Sales Consultant,Retail,OUT04,USR-107,rahul.sharma114@anvayamotors.example,2024-11-05,2026-03-13,False,8
+USR-115,Srinivas Bhat,Sales Consultant,Retail,OUT04,USR-107,srinivas.bhat115@anvayamotors.example,2026-03-20,2026-09-12,False,14
+USR-116,Prajwal Swamy,Sales Consultant,Retail,OUT04,USR-108,prajwal.swamy116@anvayamotors.example,2026-09-22,,True,8
+USR-117,Vani Raju,Sales Consultant,Retail,OUT04,USR-106,vani.raju117@anvayamotors.example,2023-05-31,2024-11-21,False,11
+USR-118,Girish Kulkarni,Sales Consultant,Retail,OUT04,USR-107,girish.kulkarni118@anvayamotors.example,2024-12-29,2026-01-12,False,13
+USR-119,Shruti Nair,Sales Consultant,Retail,OUT04,USR-107,shruti.nair119@anvayamotors.example,2026-02-07,2026-07-18,False,12
+USR-120,Sunil Shenoy,Sales Consultant,Retail,OUT04,USR-108,sunil.shenoy120@anvayamotors.example,2026-08-11,,True,11
+USR-121,Suma Gowda,Sales Consultant,Retail,OUT04,USR-106,suma.gowda121@anvayamotors.example,2023-02-22,2024-10-17,False,8
+USR-122,Kiran Verma,Sales Consultant,Retail,OUT04,USR-107,kiran.verma122@anvayamotors.example,2024-10-18,2026-02-24,False,12
+USR-123,Lakshmi Shenoy,Sales Consultant,Retail,OUT04,USR-107,lakshmi.shenoy123@anvayamotors.example,2026-03-24,2026-07-01,False,14
+USR-124,Harsha Verma,Sales Consultant,Retail,OUT04,USR-108,harsha.verma124@anvayamotors.example,2026-08-04,,True,11
+USR-125,Priya Khan,Sales Consultant,Retail,OUT04,USR-106,priya.khan125@anvayamotors.example,2020-08-28,2024-07-12,False,12
+USR-126,Shreya Jain,Sales Consultant,Retail,OUT04,USR-106,shreya.jain126@anvayamotors.example,2024-08-10,2025-12-12,False,11
+USR-127,Naveen Singh,Sales Consultant,Retail,OUT04,USR-107,naveen.singh127@anvayamotors.example,2026-01-15,,True,10
+USR-128,Pavan Kini,Sales Consultant,Retail,OUT04,USR-106,pavan.kini128@anvayamotors.example,2021-07-28,2024-03-07,False,8
+USR-129,Keerthi Bhat,Sales Consultant,Retail,OUT04,USR-106,keerthi.bhat129@anvayamotors.example,2024-04-12,2025-12-04,False,9
+USR-130,Ganesh Shetty,Sales Consultant,Retail,OUT04,USR-107,ganesh.shetty130@anvayamotors.example,2025-12-21,,True,8
+USR-131,Suresh Menon,Outlet Sales Manager,Retail,OUT05,USR-001,suresh.menon131@anvayamotors.example,2022-07-31,2024-03-27,False,
+USR-132,Mary Shetty,Outlet Sales Manager,Retail,OUT05,USR-001,mary.shetty132@anvayamotors.example,2024-05-05,,True,
+USR-133,Kiran Raju,Sales Team Lead,Retail,OUT05,USR-131,kiran.raju133@anvayamotors.example,2020-12-04,2023-11-13,False,
+USR-134,Karthik Murthy,Sales Team Lead,Retail,OUT05,USR-131,karthik.murthy134@anvayamotors.example,2023-12-23,,True,
+USR-135,Sanjay Singh,Sales Consultant,Retail,OUT05,USR-133,sanjay.singh135@anvayamotors.example,2023-07-31,2024-07-14,False,12
+USR-136,Chaitra Kamath,Sales Consultant,Retail,OUT05,USR-134,chaitra.kamath136@anvayamotors.example,2024-07-30,2024-11-01,False,8
+USR-137,Naveen Murthy,Sales Consultant,Retail,OUT05,USR-134,naveen.murthy137@anvayamotors.example,2024-12-15,2026-03-23,False,11
+USR-138,Aarav Nair,Sales Consultant,Retail,OUT05,USR-134,aarav.nair138@anvayamotors.example,2026-04-18,2026-06-25,False,8
+USR-139,Aditya Kulkarni,Sales Consultant,Retail,OUT05,USR-134,aditya.kulkarni139@anvayamotors.example,2026-08-06,,True,8
+USR-140,Manjunath D'Souza,Sales Consultant,Retail,OUT05,USR-133,manjunath.dsouza140@anvayamotors.example,2023-05-26,2025-02-04,False,10
+USR-141,Prajwal Nair,Sales Consultant,Retail,OUT05,USR-134,prajwal.nair141@anvayamotors.example,2025-02-24,2026-06-04,False,11
+USR-142,Ayesha Poojary,Sales Consultant,Retail,OUT05,USR-134,ayesha.poojary142@anvayamotors.example,2026-07-17,,True,10
+USR-143,Arun Kumar,Sales Consultant,Retail,OUT05,USR-133,arun.kumar143@anvayamotors.example,2023-08-08,2025-03-07,False,14
+USR-144,Rashmi Jain,Sales Consultant,Retail,OUT05,USR-134,rashmi.jain144@anvayamotors.example,2025-04-02,2026-08-13,False,13
+USR-145,Girish Joshi,Sales Consultant,Retail,OUT05,USR-134,girish.joshi145@anvayamotors.example,2026-08-24,,True,10
+USR-146,Ashwini Verma,Sales Consultant,Retail,OUT05,USR-133,ashwini.verma146@anvayamotors.example,2022-07-10,2024-01-14,False,14
+USR-147,Vani Naik,Sales Consultant,Retail,OUT05,USR-134,vani.naik147@anvayamotors.example,2024-02-18,2026-02-08,False,14
+USR-148,Imran Khan,Sales Consultant,Retail,OUT05,USR-134,imran.khan148@anvayamotors.example,2026-03-10,,True,14
+USR-149,Shruti Poojary,Sales Consultant,Retail,OUT05,USR-133,shruti.poojary149@anvayamotors.example,2021-05-23,2024-05-10,False,10
+USR-150,Anjali Nair,Sales Consultant,Retail,OUT05,USR-134,anjali.nair150@anvayamotors.example,2024-06-02,2025-05-02,False,14
+USR-151,Anjali Reddy,Sales Consultant,Retail,OUT05,USR-134,anjali.reddy151@anvayamotors.example,2025-06-14,2025-12-28,False,8
+USR-152,Nikhil Pai,Sales Consultant,Retail,OUT05,USR-134,nikhil.pai152@anvayamotors.example,2025-12-31,2026-06-30,False,9
+USR-153,Prajwal Naik,Sales Consultant,Retail,OUT05,USR-134,prajwal.naik153@anvayamotors.example,2026-07-14,,True,12
+USR-154,Bhavya Desai,Sales Consultant,Retail,OUT05,USR-133,bhavya.desai154@anvayamotors.example,2023-06-05,2023-11-22,False,10
+USR-155,Keerthi Bhat,Sales Consultant,Retail,OUT05,USR-131,keerthi.bhat155@anvayamotors.example,2023-12-05,2024-11-10,False,9
+USR-156,Deepak Verma,Sales Consultant,Retail,OUT05,USR-134,deepak.verma156@anvayamotors.example,2024-11-15,2025-04-23,False,8
+USR-157,Sameer Prasad,Sales Consultant,Retail,OUT05,USR-134,sameer.prasad157@anvayamotors.example,2025-05-16,2025-09-24,False,10
+USR-158,Bharath Acharya,Sales Consultant,Retail,OUT05,USR-134,bharath.acharya158@anvayamotors.example,2025-10-29,2026-04-09,False,11
+USR-159,Aditi Jain,Sales Consultant,Retail,OUT05,USR-134,aditi.jain159@anvayamotors.example,2026-04-24,2026-05-22,False,14
+USR-160,Pooja Rao,Sales Consultant,Retail,OUT05,USR-134,pooja.rao160@anvayamotors.example,2026-06-01,,True,12
+USR-161,Pallavi Singh,Outlet Sales Manager,Retail,OUT06,USR-001,pallavi.singh161@anvayamotors.example,2023-06-23,2024-06-21,False,
+USR-162,Srinivas Gowda,Outlet Sales Manager,Retail,OUT06,USR-001,srinivas.gowda162@anvayamotors.example,2024-06-28,,True,
+USR-163,Shashank Gowda,Sales Team Lead,Retail,OUT06,USR-161,shashank.gowda163@anvayamotors.example,2022-09-28,,True,
+USR-164,Irfan Sharma,Sales Consultant,Retail,OUT06,USR-163,irfan.sharma164@anvayamotors.example,2023-03-24,2024-05-07,False,11
+USR-165,Kiran Gupta,Sales Consultant,Retail,OUT06,USR-163,kiran.gupta165@anvayamotors.example,2024-06-03,,True,11
+USR-166,Asha Fernandes,Sales Consultant,Retail,OUT06,USR-163,asha.fernandes166@anvayamotors.example,2022-06-21,2025-01-16,False,12
+USR-167,Suma Poojary,Sales Consultant,Retail,OUT06,USR-163,suma.poojary167@anvayamotors.example,2025-01-19,2026-06-26,False,10
+USR-168,Amit Prasad,Sales Consultant,Retail,OUT06,USR-163,amit.prasad168@anvayamotors.example,2026-06-27,,True,13
+USR-169,Sameer Hiremath,Sales Consultant,Retail,OUT06,USR-163,sameer.hiremath169@anvayamotors.example,2023-06-29,2024-08-11,False,12
+USR-170,Arun Naik,Sales Consultant,Retail,OUT06,USR-163,arun.naik170@anvayamotors.example,2024-09-12,2026-03-10,False,8
+USR-171,Shreya Jain,Sales Consultant,Retail,OUT06,USR-163,shreya.jain171@anvayamotors.example,2026-03-10,,True,14
+USR-172,Ayesha Fernandes,Sales Consultant,Retail,OUT06,USR-163,ayesha.fernandes172@anvayamotors.example,2023-07-06,2024-02-05,False,8
+USR-173,Harish Hegde,Sales Consultant,Retail,OUT06,USR-163,harish.hegde173@anvayamotors.example,2024-03-05,2024-05-08,False,10
+USR-174,Kavya Bhat,Sales Consultant,Retail,OUT06,USR-163,kavya.bhat174@anvayamotors.example,2024-06-04,2026-09-20,False,13
+USR-175,Raghu Jain,Sales Consultant,Retail,OUT06,USR-163,raghu.jain175@anvayamotors.example,2022-12-14,2025-04-21,False,9
+USR-176,Sowmya Kamath,Sales Consultant,Retail,OUT06,USR-163,sowmya.kamath176@anvayamotors.example,2025-06-04,2026-04-14,False,14
+USR-177,Gautam Jain,Sales Consultant,Retail,OUT06,USR-163,gautam.jain177@anvayamotors.example,2026-05-20,,True,8
+USR-178,Swathi Raju,Outlet Sales Manager,Retail,OUT07,USR-001,swathi.raju178@anvayamotors.example,2023-04-16,,True,
+USR-179,Prajwal Bhat,Sales Team Lead,Retail,OUT07,USR-178,prajwal.bhat179@anvayamotors.example,2023-06-26,,True,
+USR-180,Anjali Rao,Sales Consultant,Retail,OUT07,USR-179,anjali.rao180@anvayamotors.example,2021-08-23,2024-02-29,False,11
+USR-181,Varun Joshi,Sales Consultant,Retail,OUT07,USR-179,varun.joshi181@anvayamotors.example,2024-03-26,2024-08-17,False,13
+USR-182,Rashmi Sharma,Sales Consultant,Retail,OUT07,USR-179,rashmi.sharma182@anvayamotors.example,2024-09-25,2025-03-29,False,8
+USR-183,Shilpa Bhat,Sales Consultant,Retail,OUT07,USR-179,shilpa.bhat183@anvayamotors.example,2025-05-01,2026-03-07,False,9
+USR-184,Chetan Gupta,Sales Consultant,Retail,OUT07,USR-179,chetan.gupta184@anvayamotors.example,2026-03-24,,True,12
+USR-185,Bharath Bhat,Sales Consultant,Retail,OUT07,USR-179,bharath.bhat185@anvayamotors.example,2022-05-18,,True,10
+USR-186,Pooja Patil,Sales Consultant,Retail,OUT07,USR-179,pooja.patil186@anvayamotors.example,2022-01-05,2024-03-08,False,11
+USR-187,Ramesh Desai,Sales Consultant,Retail,OUT07,USR-179,ramesh.desai187@anvayamotors.example,2024-03-17,2025-05-07,False,11
+USR-188,Sachin Acharya,Sales Consultant,Retail,OUT07,USR-179,sachin.acharya188@anvayamotors.example,2025-05-13,,True,8
+USR-189,Girish Shetty,Sales Consultant,Retail,OUT07,USR-179,girish.shetty189@anvayamotors.example,2023-01-24,2024-12-03,False,10
+USR-190,Ramesh Sharma,Sales Consultant,Retail,OUT07,USR-179,ramesh.sharma190@anvayamotors.example,2024-12-25,2025-02-12,False,8
+USR-191,Kiran Fernandes,Sales Consultant,Retail,OUT07,USR-179,kiran.fernandes191@anvayamotors.example,2025-03-19,2026-04-20,False,10
+USR-192,Uday Hegde,Sales Consultant,Retail,OUT07,USR-179,uday.hegde192@anvayamotors.example,2026-06-03,,True,12
+USR-193,Ayesha D'Souza,Sales Consultant,Retail,OUT07,USR-179,ayesha.dsouza193@anvayamotors.example,2023-02-11,2025-09-04,False,8
+USR-194,Suresh Sharma,Sales Consultant,Retail,OUT07,USR-179,suresh.sharma194@anvayamotors.example,2025-09-08,2025-11-19,False,10
+USR-195,Aarav Kumar,Sales Consultant,Retail,OUT07,USR-179,aarav.kumar195@anvayamotors.example,2025-11-26,,True,11
+USR-196,Bhavya D'Souza,Head - Corporate & Fleet Sales,Corporate & Fleet,OUT08,USR-001,bhavya.dsouza196@anvayamotors.example,2023-08-11,,True,
+USR-197,Aditi Pai,Key Account Manager,Corporate & Fleet,OUT08,USR-196,aditi.pai197@anvayamotors.example,2019-11-09,,True,76
+USR-198,Bhavya Patil,Key Account Manager,Corporate & Fleet,OUT08,USR-196,bhavya.patil198@anvayamotors.example,2023-08-04,,True,45
+USR-199,Aditi Hegde,Key Account Manager,Corporate & Fleet,OUT08,USR-196,aditi.hegde199@anvayamotors.example,2020-10-16,2026-04-09,False,77
+USR-200,Ravi Reddy,Key Account Manager,Corporate & Fleet,OUT08,USR-196,ravi.reddy200@anvayamotors.example,2026-05-03,,True,56
+USR-201,Anita Swamy,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,anita.swamy201@anvayamotors.example,2023-01-07,2023-09-25,False,15
+USR-202,Anil Agarwal,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,anil.agarwal202@anvayamotors.example,2023-10-18,,True,38
+USR-203,Uday Patil,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,uday.patil203@anvayamotors.example,2022-10-13,2024-11-26,False,40
+USR-204,Vijay Desai,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,vijay.desai204@anvayamotors.example,2024-12-03,,True,43
+USR-205,Arjun Joshi,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,arjun.joshi205@anvayamotors.example,2022-08-24,2025-07-30,False,19
+USR-206,Manoj Singh,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,manoj.singh206@anvayamotors.example,2025-08-13,,True,42
+USR-207,Mahesh Iyer,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,mahesh.iyer207@anvayamotors.example,2023-04-25,2025-05-05,False,26
+USR-208,Madhu Rao,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,madhu.rao208@anvayamotors.example,2025-05-12,,True,29
+USR-209,Kiran Menon,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,kiran.menon209@anvayamotors.example,2023-06-20,,True,34
+USR-210,Priya Singh,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,priya.singh210@anvayamotors.example,2023-06-06,2023-11-04,False,33
+USR-211,Chetan Joshi,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,chetan.joshi211@anvayamotors.example,2023-11-07,,True,28
+USR-212,Pooja Nair,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,pooja.nair212@anvayamotors.example,2023-08-20,2024-01-09,False,19
+USR-213,Divya Raju,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,divya.raju213@anvayamotors.example,2024-02-21,2024-06-24,False,17
+USR-214,Akash Murthy,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,akash.murthy214@anvayamotors.example,2024-08-01,,True,35
+USR-215,Naveen D'Souza,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,naveen.dsouza215@anvayamotors.example,2021-04-15,2025-04-27,False,37
+USR-216,Tejas Sharma,Corporate Sales Executive,Corporate & Fleet,OUT08,USR-196,tejas.sharma216@anvayamotors.example,2025-05-15,,True,37
+USR-217,Akash Pai,Sales Consultant,Retail,OUT03,USR-076,akash.pai217@anvayamotors.example,2026-10-07,,False,13

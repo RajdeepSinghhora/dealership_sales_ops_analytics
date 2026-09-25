@@ -1,0 +1,229 @@
+{
+  "run_at": "2026-09-26 04:55:43",
+  "data_as_of": "2026-09-25",
+  "overall": "PASS",
+  "failed": 0,
+  "warnings": 0,
+  "checks": [
+    {
+      "Check": "schema: files and required columns present",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "keys: dim_outlets.csv.OutletID unique and not blank",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "keys: dim_users.csv.UserID unique and not blank",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "keys: dim_products.csv.ProductID unique and not blank",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "keys: dim_accounts.csv.AccountID unique and not blank",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "keys: dim_contacts.csv.ContactID unique and not blank",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "keys: fact_leads.csv.LeadID unique and not blank",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "keys: fact_opportunities.csv.OpportunityID unique and not blank",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "keys: fact_opportunity_lines.csv.LineID unique and not blank",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "keys: fact_stage_history.csv.StageHistoryID unique and not blank",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "keys: fact_report_requests.csv.RequestID unique and not blank",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "keys: activities.ActivityID unique and not blank",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: opportunity -> account",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: opportunity -> contact",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: opportunity -> owner",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: opportunity -> lead",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: opportunity -> outlet",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: lead -> opportunity",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: lead -> account",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: lead -> owner",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: lead -> product",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: contact -> account",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: account -> owner",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: account -> parent (planted orphans allowed)",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: line -> opportunity",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: line -> product",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: stage history -> opportunity",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: activity -> lead",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: activity -> opportunity",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: activity -> owner",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "references: report request -> analyst",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "consistency: opportunity status matches stage",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "consistency: each open deal has exactly one open stage row, at its current stage",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "consistency: closed deals end in their closing stage and have a close date",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "consistency: opportunity revenue equals the sum of its product lines",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "consistency: converted leads (and only those) point to an opportunity",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "time: nothing dated after the as-of date",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "time: lead responses and conversions come after the enquiry",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "time: stage exits come after stage entries",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "time: activities come after the deal they belong to was created",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "freshness: data is as of yesterday",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "freshness: pipeline snapshot exists for the as-of date",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "append-only: no table lost rows since the last run",
+      "Status": "PASS",
+      "Detail": ""
+    },
+    {
+      "Check": "volume: enquiries on the latest day look normal",
+      "Status": "PASS",
+      "Detail": ""
+    }
+  ]
+}
