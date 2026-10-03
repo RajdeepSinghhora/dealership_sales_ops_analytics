@@ -1,0 +1,22 @@
+ProductID,Model,Powertrain,Segment,FuelType,IsEV,IsFleetOnly,LaunchDate,IndicativeExShowroomINR
+PRD01,Tiago,Petrol,Hatchback,Petrol,False,False,2020-01-22,560000
+PRD02,Tiago,CNG,Hatchback,CNG,False,False,2022-01-19,660000
+PRD03,Tiago EV,EV,Hatchback,Electric,True,False,2022-09-28,900000
+PRD04,Tigor,Petrol,Compact Sedan,Petrol,False,False,2020-01-22,660000
+PRD05,Tigor,CNG,Compact Sedan,CNG,False,False,2022-01-19,770000
+PRD06,Tigor EV,EV,Compact Sedan,Electric,True,False,2021-08-31,1250000
+PRD07,Xpres-T EV,EV,Compact Sedan,Electric,True,True,2021-07-01,1250000
+PRD08,Punch,Petrol,Micro SUV,Petrol,False,False,2021-10-18,640000
+PRD09,Punch,CNG,Micro SUV,CNG,False,False,2023-08-04,730000
+PRD10,Punch EV,EV,Micro SUV,Electric,True,False,2024-01-17,1100000
+PRD11,Altroz,Petrol,Premium Hatchback,Petrol,False,False,2020-01-22,700000
+PRD12,Altroz,CNG,Premium Hatchback,CNG,False,False,2023-05-22,780000
+PRD13,Nexon,Petrol,Compact SUV,Petrol,False,False,2017-09-21,890000
+PRD14,Nexon,Diesel,Compact SUV,Diesel,False,False,2017-09-21,1080000
+PRD15,Nexon,CNG,Compact SUV,CNG,False,False,2024-09-24,919999
+PRD16,Nexon EV,EV,Compact SUV,Electric,True,False,2020-01-28,1350000
+PRD17,Curvv,Petrol,Coupe SUV,Petrol,False,False,2024-09-02,1100000
+PRD18,Curvv EV,EV,Coupe SUV,Electric,True,False,2024-08-07,1750000
+PRD19,Harrier,Diesel,Mid-size SUV,Diesel,False,False,2019-01-23,1600000
+PRD20,Harrier EV,EV,Mid-size SUV,Electric,True,False,2025-06-03,2200000
+PRD21,Safari,Diesel,Mid-size SUV,Diesel,False,False,2021-02-22,1650000
